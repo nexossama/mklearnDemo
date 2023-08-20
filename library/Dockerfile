@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirement.txt
 
 COPY ./src ./src
 
-CMD [ "python3","./src/myLinearRegression.py" ]
+CMD [ "python3","./src/my_linear_regression.py" ]
