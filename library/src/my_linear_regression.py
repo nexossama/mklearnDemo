@@ -1,2 +1,6 @@
 """my_linear_regression"""
-print("myLinearRegression123")
+
+def my_linear_regression_func():
+    """my_linear_regression function"""
+    print("myLinearRegression123")
+    return 123
