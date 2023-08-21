@@ -2,7 +2,7 @@ FROM python:3.10
 
 WORKDIR /library
 
-COPY src/requirement.txt ./
+COPY requirement.txt ./
 RUN pip install --no-cache-dir -r requirement.txt
 
 COPY ./src ./src
